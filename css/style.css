@@ -1,0 +1,9 @@
+.img_tabella{
+    width: 30px;
+    height: 30px;
+}
+
+.img_tabella img{
+    width: 100%;
+    border-radius: 50%;
+}

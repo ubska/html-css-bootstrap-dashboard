@@ -22,10 +22,11 @@
 </head>
 <body>
     <header>
+        <!-- header start -->
         <div class="container-fluid">
             <div class="row">
                 <!-- logo -->
-                <div class="col-auto">
+                <div class="col-2">
                     <a href="#">
                         <img src="img/logo.svg" alt="logo">
                     </a>
@@ -37,7 +38,7 @@
                     </form>
                 </div>
                 <!-- icone -->
-                <div class="col-auto">
+                <div class="col-2">
                     <a href="#"><i class="fa-solid fa-list-ul"></i></a>
                     <a href="#"><i class="fa-solid fa-circle-question"></i></a>
                     <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
@@ -46,6 +47,98 @@
             </div>
         </div>
     </header>
+    <!-- main start -->
+    <main class="d-flex">
+        <!-- sidebar -->
+        <nav class="d-flex flex-column justify-content-between">
+            <div>
+                <div class="icon">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span>Stats</span>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-signal"></i>
+                    <span>Signal</span>
+                </div>
+            </div>
+        </nav>
+        
+        
+                <div class="container">
+                    <div class="row bg-primary text-white">
+                        <!-- breadcrumb di bootstrap -->
+                        <div class="col-12 col-md-4">
+                            <nav>
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">Boolean</li>
+                                    <li class="breadcrumb-item">Piano blaze</li>
+                                </ol>
+                            </nav>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">3 app</li>
+                                    <li class="breadcrumb-item">Boolean mobile app</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Boolean web app</li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <span>Studenti online negli ultimi 30 giorni</span>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <span>Nuovo studente</span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row">
+                                <div class="col-12 px-0">
+                                    <div>
+                                        <h5>Prossime classi</h5>
+                                        <div>
+                                            <!-- Tabella -->
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <th  class="col-6 col-md-4">Nome</th>
+                                                        <th  class="text-center d-none d-md-table-cell col-md-2">Data inizio</th>
+                                                        <th  class="text-center d-none d-md-table-cell col-md-2">ROI</th>
+                                                        <th  class="text-center col-3 col-md-2">Stato</th>
+                                                        <th  class="text-center col-3 col-md-2">Azioni</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>
+                                                            <a href="#">
+                                                                <div class="img_tabella">
+                                                                    <img src="img/class-avatar.jpg" alt="class avatar" class="ec-image">
+                                                                </div>
+                                                            </a>
+                                                        </th>
+                                                        <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                                        <td class="text-center d-none d-md-table-cell">20%</td>
+                                                        <td class="text-center">
+                                                            <span class="badge text-bg-success">done</span>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <button class="text-center ">
+                                                                <i class="fa-solid fa-pencil"></i>
+                                                            </button>
+                                                            <button class="text-center">
+                                                                <i class="fa-solid fa-trash-can"></i>
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+    </main>
     <!-- script di bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
